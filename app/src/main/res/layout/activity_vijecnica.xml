@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vijecnica"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/mvijecnica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="150dp"
+            android:text="Map" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:contentDescription="TODO"
+            android:src="@drawable/vijecnica" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sarajevska vijećnica je zgrada u Sarajevu nedaleko od Baščaršije na Mustaj-pašinom mejdanu i predstavlja jedan od najljepših i najreprezentativnijih objekata iz austrougarskog perioda građen u pseudo-maurskom stilu. U ovom stilu rađena je većina objekata što ih je u Sarajevu ostavila austrougarska vlast, a sinonim je za austrougarski period u Bosni i Hercegovini i zaštitni znak tog vremena. Prvi projekat je uradio Karlo Paržik, a kako se ovaj nije svidio ministru Benjaminu Kalaju, izrada novog je povjerena Alexandru Witteku.
+Kao uzor u izradi ovog projekta poslužila mu je džamija Kemala II zbog čega je dva puta odlazio u Kairo. Kako je Witek navodno, upravo zbog ovog projekta (nedovoljnog osvjetljenja u glavnoj auli zgrade), umno obolio i izvršio samoubistvo, završetak njegovog projekta je povjeren 1894. godine Ćirilu M. Ivekoviću. Uporedo sa izradom i razradom projekta tekla je i izgradnja objekta od 1892. do 1894. godine. Objekat gradske vijećnice zvanično je predat na upotrebu 1896. godine.
+Nakon što je obnovljena, Vijećnica je ponovo otvorena 9. maja 2014. godine. "
+            android:textAlignment="viewStart"
+            android:textSize="24sp" />
+
+    </ScrollView>
+</LinearLayout>

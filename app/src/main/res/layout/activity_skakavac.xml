@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".skakavac"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/mskakavac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="150dp"
+            android:text="Map" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:contentDescription="TODO"
+            android:src="@drawable/skakavac" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='Vodopad Skakavac se nalazi sjeverno od Sarajeva, i udaljen je nekih 12 km od centra grada. Vodopad je visok 98 m. Iako nema veliki protok vode odlikuje se izuzetnom ljepotom, naročito zimi kada njegov slap okuje led oblikujući fantastične prizore.
+Odluka o proglašenju šireg područja vodopada "Skakavac" spomenikom prirode je donesena na sjednici Skupštine Kantona Sarajevo, održanoj 25.4.2002. godine. Odlukom su definisane granice obuhvata, ukupna površina obuhvata (1430,70 ha), zoniranje prostora (zavisno od stepena zaštite utvrđene su tri zaštitne zone), mjere zaštite, kao i korištenje i upravljanje ovim prostorom.'
+            android:textAlignment="viewStart"
+            android:textSize="24sp" />
+
+    </ScrollView>
+
+</LinearLayout>

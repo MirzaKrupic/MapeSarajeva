@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".carsija"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/mcarsija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="150dp"
+            android:text="Map" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="TODO"
+            android:src="@drawable/carsija" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Baščaršija stara je sarajevska čaršija, naselje te historijski i kulturni centar grada. Baščaršija je izgrađena u 15. vijeku kad je Isa-beg Ishaković osnovao cijeli grad. Baščaršija se nalazi na sjevernoj obali rijeke Miljacke, u općini Stari Grad Sarajevo. Na Baščaršiji se nalazi nekoliko važnih historijskih objekata, poput Gazi Husrev-begove džamije i sahat-kule.
+
+Danas je Baščaršija glavna turistička atrakcija grada Sarajeva. Zbog velikog požara u 19. vijeku, današnja Baščaršija je dvostruko manja nego što je nekad bila. "
+            android:textAlignment="viewStart"
+            android:textSize="24sp" />
+
+    </ScrollView>
+
+
+</LinearLayout>

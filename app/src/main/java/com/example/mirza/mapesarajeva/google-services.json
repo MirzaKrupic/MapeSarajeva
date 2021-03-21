@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1060809986556",
+    "firebase_url": "https://maturski-afbb3.firebaseio.com",
+    "project_id": "maturski-afbb3",
+    "storage_bucket": "maturski-afbb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060809986556:android:779ea0a2b5ed46ac",
+        "android_client_info": {
+          "package_name": "com.example.mirza.mapesarajeva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060809986556-a4om0p8jvp8habrpk96kjnvl0ib1gcpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmGNsWaWioXPabbqTOIno6v2iJwCTZzSM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

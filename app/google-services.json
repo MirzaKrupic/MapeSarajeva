@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "637541590089",
+    "firebase_url": "https://maturskirad-74b43.firebaseio.com",
+    "project_id": "maturskirad-74b43",
+    "storage_bucket": "maturskirad-74b43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637541590089:android:779ea0a2b5ed46ac",
+        "android_client_info": {
+          "package_name": "com.example.mirza.mapesarajeva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637541590089-5l74g4jec385vkl6to27s05nqg2de7j7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mirza.mapesarajeva",
+            "certificate_hash": "d2999c9e65337ceb7ef9014ff3bf82c269892863"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAydQpXkmJB_ztdDuCCnEurva7FZ_Icvkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637541590089-88hg3bhodq9slrr0ed8egnhopd0nfctk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ztabija"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:contentDescription="TODO"
+            android:src="@drawable/zutat" />
+
+        <Button
+            android:id="@+id/mzutatab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="150dp"
+            android:text="Map" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Na krajevima odbrambenog zida izgrađeno je 5 bastiona, od kojih je jedan Žuta tabija, koja je ime dobila po žutom kamenu od kojeg je sagrađena.
+Nakon austro-ugarskog osvajanja Sarajeva utvrda je izgubila svoju funkciju. Danas je Žuta tabija mjesto sa kojeg se pruža fascinantan pogled na Sarajevo i jedan je od omiljenijih sarajevskih vidikovaca. To je i mjesto sa kojeg u vrijeme muslimanskog mjeseca Ramazana puca top, koji označava vrijeme zalaska sunca i prekida cjelodnevnog posta. Žuta tabija, koja se nalazi na litici Jekovac, zbog čega je poznata i kao Jekovačka tabija, jedna je od utvrda koje su činile odbrambeni bedem oko starog grada Vratnika.
+Nakon provale Eugena Savojskog, 1697. godine, pokazalo se da mala tvrđava, koja se nalazila na mjestu današnje Bijele tabije, nije dovoljna za odbranu grada, pa je bosanski namjesnik Gazi Ahmed-paša Rustempašić Skopljak 1729. započeo sa gradnjom bedema oko Vratnika."
+            android:textAlignment="viewStart"
+            android:textSize="24sp" />
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

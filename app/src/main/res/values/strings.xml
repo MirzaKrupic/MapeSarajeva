@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Mape Sarajeva</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="LogIn">Log in</string>
+    <string name="not_registered">Not registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already registered?</string>
+    <string name="title_activity_main_screen">mainScreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="daj">Daj</string>
+    <string name="vise">Više</string>
+    <string name="title_activity_maps_carsija">Map</string>
+    <string name="title_activity_maps_ztabija">Map</string>
+    <string name="title_activity_maps_btabija">Map</string>
+    <string name="title_activity_maps_vijecnica">Map</string>
+    <string name="title_activity_maps_lcuprija">Map</string>
+    <string name="title_activity_maps_skakavac">Map</string>
+    <string name="access_token">pk.eyJ1IjoiZmwwdzk5IiwiYSI6ImNqdWpuM3NxbzBsMjU0M3BlaTZ3a2xweHcifQ.krNDVOl3Dy7VDvP92bBPIQ</string>
+</resources>

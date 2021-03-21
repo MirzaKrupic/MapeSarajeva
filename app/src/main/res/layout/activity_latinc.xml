@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".latinc"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/mcuprija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="150dp"
+            android:text="Map" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:contentDescription="TODO"
+            android:src="@drawable/latinskac" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Latinska ćuprija je sarajevski most iz osmanlijskog perioda. Jedan je od najstarijih mostova u Sarajevu. Mijenjao se vremenom, od prvog drvenog mosta, koji je stajao na istom tom mjestu, pa sve do današnjeg oblika. Prvi most na ovom mjestu je bio od drveta i spominje se u popisu Bosanskog Sandžaka iz 1541. Sagradio ga je sarač Husein, sin nekog Širmerda. Kameni most gradi sarajevski ajan Ali Ajni-beg godine 1565.
+Poplava koja je pogodila Sarajevo 1791. oštetila je most, a sredstva za njegovu obnovu izdvaja Hadži Abdulah Briga. Obnova je uslijedila 1798/99. godine.
+U obnovi su učestvovali domaći majstori, kako se spominje u tadašnjim dokumentima.
+Smatra se da je most imao četiri stuba na kojima je ležalo pet lukova, ali regulacijom Miljacke u XIX vijeku jedan stub biva zazidan, a ćuprija ostaje sa četiri luka. U masi iznad pilona možemo vidjeti dva olakšavajuća okulusa, koje vidimo i kao jedan od simbola grada u grbu Sarajev U doba Austro-Ugarske mostu su dodani konzolni trotoari.
+Građen je od sedre i krečnjaka. Inače ovaj most je povezivao desnu obalu Miljacke sa dijelom grada gdje je stanovalo kršćansko (katoličko) stanovništvo, koje je u narodu bilo poznato kao Latinluk, pa je tako i dobio ime Latinska ćuprija.
+U blizini mosta je, godine 1914., izvršen atentat na prijestolonasljednika Austro-Ugarske monarhije nadvojvodu Franju Ferdinanda i njegovu suprugu Sofiju, vojvotkinju Hohenberga (događaj poznat kao sarajevski atentat, i koji se uzima kao povod Prvog svjetskog rata, te im je na mostu podignut spomenik, koji je porušen 1918. Dijelovi spomenika se čuvaju u muzeju u Sarajevu-a.
+U periodu između dva svjetska rata, poslije Drugog svjetskog rata, pa do rata u Bosni i Hercegovini, most je nosio naziv mladića koji je izvršio atentat na ove ličnosti, Gavrila Principa, da bi mu se 1992. ponovo vratio stari naziv. Most je rekonstruisan 2003/2004. godine"
+            android:textAlignment="viewStart"
+            android:textSize="24sp" />
+
+    </ScrollView>
+
+</LinearLayout>
